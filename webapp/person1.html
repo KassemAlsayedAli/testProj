@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table>
+    <thead>
+    <tr>
+        <th th:text="Name">Name</th>
+        <th th:text="Age">Price</th>\
+        <th th:text="Sex">Price</th>
+
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="person: ${allPersons}">
+        <td th:text="${person.name}">Oranges</td>
+        <td th:text="${person.age}">Oranges</td>
+        <td th:text="${person.sex}">Oranges</td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>

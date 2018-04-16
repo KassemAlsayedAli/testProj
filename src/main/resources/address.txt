@@ -1,0 +1,13 @@
+{
+   "address":{
+      "streetAddress": "21 Street",
+      "city":"Ottawa"
+   },
+   "phoneNumber":
+   [
+      {
+         "type":"home",
+         "number":"613 123-4567"
+      }
+   ]
+}
